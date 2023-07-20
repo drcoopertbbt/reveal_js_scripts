@@ -15,6 +15,10 @@ git clone https://github.com/hakimel/reveal.js.git
 echo "Navigating into reveal.js directory..."
 cd reveal.js
 
+# Update host in gulpfile.js
+echo "Updating host in gulpfile.js..."
+sed -i "s/host = 'localhost'/host = '0.0.0.0'/g" gulpfile.js
+
 # Install reveal.js using npm
 echo "Installing reveal.js..."
 npm install
