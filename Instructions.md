@@ -7,3 +7,7 @@ bash <(curl -s https://raw.githubusercontent.com/drcoopertbbt/reveal_js_scripts/
 ## Flush All npm stuff
 
 bash <(curl -s https://raw.githubusercontent.com/drcoopertbbt/reveal_js_scripts/main/flush-all.sh)
+
+## Start Only
+
+bash <(curl -s https://raw.githubusercontent.com/drcoopertbbt/reveal_js_scripts/main/start-npm-only.sh)
